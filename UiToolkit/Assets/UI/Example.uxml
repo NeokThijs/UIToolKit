@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Calc%20Style.uss?fileID=7433441132597879392&amp;guid=647241718c485d342bec9c6422f17d3a&amp;type=3#Calc Style"/>
+    <ui:VisualElement name="Root" class="root" style="flex-grow: 1;">
+        <ui:VisualElement name="MainPanel" class="main-panel" style="flex-direction: column;">
+            <ui:Label text="Please Log in to Continue" name="WelcomeLabel"/>
+            <ui:TextField label="Name&#10;" placeholder-text="filler text" name="NameField"/>
+            <ui:Button text="Submit" name="SubmitButton"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,36 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CalcStyle.uss?fileID=7433441132597879392&amp;guid=e76662713c2ba364f8773f218b6fd9a5&amp;type=3#CalcStyle"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="CalcBase" class="calcBase" style="flex-grow: 1;">
+            <ui:VisualElement name="Result" class="result" style="flex-grow: 1;">
+                <ui:Label text="0" name="ResultLabel" class="resultLabel" style="-unity-text-align: middle-right; text-overflow: clip; white-space: nowrap; height: 162px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" class="buttonsbase" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="LeftRow" style="flex-grow: 1; flex-direction: column;">
+                    <ui:Button text="1" name="1" class="buttons"/>
+                    <ui:Button text="4" name="4" class="buttons"/>
+                    <ui:Button text="7" name="7" class="buttons"/>
+                    <ui:Button text="/" name="division" class="buttons"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="MiddleRow" style="flex-grow: 1; flex-direction: column;">
+                    <ui:Button text="2" name="2" class="buttons"/>
+                    <ui:Button text="5" name="5" class="buttons"/>
+                    <ui:Button text="8" name="8" class="buttons"/>
+                    <ui:Button text="0" name="0" class="buttons"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="RightRow" style="flex-grow: 1; flex-direction: column; align-items: stretch;">
+                    <ui:Button text="3" name="3" class="buttons"/>
+                    <ui:Button text="6" name="6" class="buttons"/>
+                    <ui:Button text="9" name="9" class="buttons"/>
+                    <ui:Button text="," name="collum" class="buttons"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="CalcRow" style="flex-grow: 1; flex-direction: column;">
+                    <ui:Button text="X" name="X" class="buttons"/>
+                    <ui:Button text="+" name="Plus" class="buttons"/>
+                    <ui:Button text="-" name="minus" class="buttons"/>
+                    <ui:Button text="=" name="Equals" class="buttons"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
