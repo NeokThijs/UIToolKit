@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Login.uss?fileID=7433441132597879392&amp;guid=e7bb4ae311e5cb142ba19383588fe207&amp;type=3#Login"/>
+    <ui:VisualElement name="Background" style="flex-grow: 1; width: 686px; height: 0; align-self: center; max-height: 879px; justify-content: flex-start; align-items: stretch; flex-direction: column; align-content: flex-start; flex-wrap: nowrap; margin-top: 80px;">
+        <ui:VisualElement name="Logintxt" style="flex-grow: 1; width: 686px; height: 0; max-height: 130px; flex-direction: column; justify-content: space-between; align-self: center; align-items: stretch; margin-bottom: 0; background-color: rgb(61, 38, 80);">
+            <ui:Label text="Login" style="height: 120px; -unity-font-style: bold; font-size: 96px; -unity-text-align: lower-center; color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+        <ui:TextField label="Email" placeholder-text="please enter your email here" name="Email" style="color: rgb(255, 255, 255); font-size: 36px; flex-direction: column; -unity-font-style: bold; justify-content: space-around; align-self: center; width: 642px;"/>
+        <ui:TextField label="Password" placeholder-text="please enter your password here" name="Password" password="true" focusable="false" enabled="true" language-direction="Inherit" style="color: rgb(255, 255, 255); font-size: 36px; flex-direction: column; -unity-font-style: bold; justify-content: space-around; align-self: center; width: 642px;"/>
+    </ui:VisualElement>
+</ui:UXML>
